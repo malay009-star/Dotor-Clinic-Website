@@ -19,6 +19,9 @@
     left: 0.9375rem;
   }
   /* service */
+  .services_wrapper .card {
+    padding: 1.875rem 1.25rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -67,6 +70,9 @@
     max-width: 100%;
   }
   /* about */
+  .about_wrapper .card {
+    width: 100%;
+  }
   .about_wrapper .about-clinic:nth-child(1),
   .about_wrapper .about-clinic:nth-child(2) {
     margin-bottom: 1.5625rem;
@@ -76,7 +82,13 @@
     padding-left: 2.375rem;
   }
   /* services */
+  .services_wrapper .card {
+    padding: 1.875rem 0.875rem;
+  }
   /* blog */
+  .blog_wrapper .card .blog-content {
+    padding: 1.875rem 0.625rem;
+  }
 }
 
 @media (max-width: 767px) {
@@ -91,22 +103,68 @@
   h5 {
     font-size: 1.25rem;
   }
+  /* about */
+  .about_wrapper .card {
+    width: 100%;
+    margin-left: 3rem;
+  }
   /* services */
+  .services_wrapper .card {
+    text-align: center;
+  }
   /* blog */
+  .blog_wrapper .card .blog-content {
+    padding: 1.875rem 1rem;
+    margin: 0;
+  }
   /* footer */
+  .footer_wrapper {
+    padding-bottom: 0;
+  }
+  .footer_wrapper > div {
+    padding: 0 1.875rem;
+  }
 }
 
-@media (max-width: 767px) {
-  /* banner */
+@media (max-width: 551px) {
+  /* about */
+  .about-animate {
+    margin-left: 4rem;
+  }
+  /* testimonial */
+  #testimonial-info {
+    margin-left: 1rem;
+  }
+  /* appointment */
+  .appointment_wrapper h3 {
+    width: 95%;
+  }
+}
+
+@media (max-width: 360px) {
+  /* home */
+  #second-animate {
+    margin-left: 3rem;
+  }
   /* about */
   .about_wrapper .about-animate {
     width: 6.875rem;
+    margin-left: 3rem;
   }
   .about_wrapper .card {
     padding: 1.25rem 0.3125rem;
+    margin-left: 2rem;
   }
   .about_wrapper .about-clinic:nth-child(2),
   .about_wrapper .about-clinic:nth-child(4) {
     margin-bottom: 0.625rem;
+  }
+  /* Services */
+  .services_wrapper .icon-box {
+    margin-bottom: 0.9375rem;
+  }
+  /* appointment */
+  .appointment_wrapper h3 {
+    width: 100%;
   }
 }
